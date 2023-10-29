@@ -26,7 +26,7 @@ const SignIn = () => {
   const postData= async(e)=>{
     e.preventDefault()
     const {name,email,password,cpassword}=user;
-    const res=await fetch("http://localhost:8000/signin",{
+    const res=await fetch("https://auth-project-lovat.vercel.app/signin",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"

@@ -12,7 +12,7 @@ const Login = () => {
 
   const userLogin = async (e) => {
     e.preventDefault();
-    const res = await fetch("https://mern-with-admin-panel.vercel.app/login", {
+    const res = await fetch("https://auth-project-lovat.vercel.app/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
